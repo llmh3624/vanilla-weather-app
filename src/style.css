@@ -30,13 +30,12 @@ body {
 
 .search-button {
   background-color: #008ab2;
-  border-color: #90b7bc;
+  border-color: #02475e;
   color: white;
 }
 
 .search-button:hover {
   background-color: #02475e;
-
   border-color: #008ab2;
   color: white;
   font-weight: 500;
@@ -59,9 +58,8 @@ li {
   list-style: none;
   margin: 2px;
   padding: 0;
-
   color: #686868;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 19px;
 }
@@ -87,8 +85,8 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
@@ -104,11 +102,28 @@ li:first-letter {
   top: -34px;
 }
 
-.weather-temperature .active {
+.celsius,
+.farenheit {
   color: rgb(33, 33, 33);
   cursor: default;
+  text-decoration: none;
 }
 
-.weather-temperature .active:hover {
+.celsius:hover,
+.farenheit:hover {
+  color: #008ab2;
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+.code-link {
+  color: white;
+}
+
+.code-link:hover {
+  color: #02475e;
 }

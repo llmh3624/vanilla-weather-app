@@ -45,14 +45,14 @@
               <div class="col-3">
                 <input
                   type="submit"
-                  value="Search"
+                  value="SEARCH"
                   class="btn btn-primary w-100 search-button"
                 />
               </div>
             </div>
           </form>
           <div class="overview">
-            <h1 id="city"></h1>
+            <h1 id="city">Palma de Mallorca</h1>
             <ul>
               <li>Last updated: <span id="date"></span></li>
               <li id="description">Cloudy</li>
@@ -60,14 +60,14 @@
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="clearfix weather-temperature">
+              <div class="d-flex weather-temperature">
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong
-                  ><span class="units"
-                    ><a href="#" id="celsius-link" class="active">°C</a> |
-                    <a href="#" id="fahrenheit-link">°F</a></span
-                  >
+                  ><span class="units">
+                    <a href="#" id="celsius-link" class="celsius">°C</a> |
+                    <a href="#" id="fahrenheit-link" class="farenheit">°F</a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -82,7 +82,10 @@
       </div>
 
       <footer>
-        <a href="https://github.com/llmh3624/Weather-App" target="_blank"
+        <a
+          href="https://github.com/llmh3624/vanilla-weather-app"
+          target="_blank"
+          class="code-link"
           >Open-source code</a
         >
         by Laura Moragues
