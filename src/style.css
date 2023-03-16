@@ -113,6 +113,13 @@ li:first-letter {
 .farenheit:hover {
   color: #008ab2;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.humidity,
+.wind {
+  color: #008ab2;
+  font-weight: 500;
 }
 
 footer {
