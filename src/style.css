@@ -26,6 +26,7 @@ body {
 .form-control {
   border-color: #008ab2;
   color: #02475e;
+  background-color: white;
 }
 
 .search-button {
@@ -120,6 +121,20 @@ li:first-letter {
 .wind {
   color: #008ab2;
   font-weight: 500;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-top: 20px;
+  color: #02475e;
+}
+
+.weather-forecast-date {
+  font-weight: 600;
+}
+
+.weather-forecast-temperature-min {
+  color: #008ab2;
 }
 
 footer {
