@@ -1,28 +1,68 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(src/weatherbackground.jpg);
+  background-image: url("https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #8cbafd;
+}
+
+.container {
+  display: block;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+}
+
+.weather-app-cover {
+  background-color: white;
+  border: 8px inset #0287b2;
+  box-shadow: 7px 7px 40px;
+  margin: 100px auto 10px auto;
+}
+
+.form-control {
+  border-color: #008ab2;
+  color: #686868;
+}
+
+.search-button {
+  background-color: #008ab2;
+  border-color: #90b7bc;
+  color: white;
+}
+
+.search-button:hover {
+  background-color: #02475e;
+
+  border-color: #008ab2;
+  color: white;
+  font-weight: 500;
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  color: #0097cd;
+  font-size: 30px;
+  font-weight: bold;
   line-height: 28px;
   margin-bottom: 0;
 }
 
 ul {
-  margin: 0;
+  margin: 0px 10px;
   padding: 0;
 }
 
 li {
   list-style: none;
-  margin: 0;
+  margin: 2px;
   padding: 0;
 
-  color: rgb(135, 135, 135);
-  font-size: 16px;
-  font-weight: 100;
+  color: #686868;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 19px;
 }
 
