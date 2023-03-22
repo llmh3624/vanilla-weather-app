@@ -23,6 +23,15 @@ body {
   margin: 100px auto 10px auto;
 }
 
+h1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  background: -webkit-linear-gradient(#00afef, #02475e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .form-control {
   border-color: #008ab2;
   color: #02475e;
@@ -42,7 +51,7 @@ body {
   font-weight: 500;
 }
 
-h1 {
+h2 {
   color: #0097cd;
   font-size: 35px;
   font-weight: bold;
